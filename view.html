@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Students</title>
+    <link rel="stylesheet" href="view.css">
+</head>
+
+<body>
+    <header>
+        <h1>Registered Students</h1>
+        <nav>
+            <ul>
+                <li><a href="portal.html">Home</a></li>
+                <li><a href="add.html">Add Student</a></li>
+                <li><a href="view.html">View Students</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="table-section">
+            <h2>Student Records</h2>
+            <table id="studentsTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Class</th>
+                        <th>Gender</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                        <!-- New column -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data injected by app.js -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Iyunga Secondary School | Student Portal</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

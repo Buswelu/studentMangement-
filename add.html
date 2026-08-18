@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+
+<body>
+    <header>
+        <h1>Add New Student</h1>
+        <nav>
+            <ul>
+                <li><a href="portal.html">Home</a></li>
+                <li><a href="add.html">Add Student</a></li>
+                <li><a href="view.html">View Students</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Student Registration Form</h2>
+            <form id="studentForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="class">Class/Form:</label>
+                <input type="text" id="class" name="class" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+          <option value="">--Select--</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+
+                <label for="email">Parent/Guardian Email:</label>
+                <input type="email" id="email" name="email">
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Iyunga Secondary School | Student Portal</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
